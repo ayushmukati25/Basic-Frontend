@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="display">
+		<p style="margin-top: 5px; margin-left: 5px;">CASIO</px>
+			<div class="board">
+	<div class="input">
+		<form class="calculator" name="calc">
+		<input class="value" type="text" name="txt" readonly="">
+	</form>
+	</div>
+</div>
+</div>
+<div class="buttons">
+	<button class="single" onclick="document.calc.txt.value+='7'">7</button>
+	<button class="single"onclick="document.calc.txt.value+='8'">8</button>
+	<button class="single"onclick="document.calc.txt.value+='9'">9</button>
+	<button class="single"onclick="document.calc.txt.value+='/'" style="background-color: #1e90ff">/</button>
+	<button class="single" onclick="document.calc.txt.value+='4'">4</button>
+	<button class="single" onclick="document.calc.txt.value+='5'">5</button>
+	<button class="single"onclick="document.calc.txt.value+='6'">6</button>
+	<button class="single" style="background-color: #ffa31a; font-size: 40px"onclick="document.calc.txt.value+='*'">x</button>
+	<button class="single"onclick="document.calc.txt.value+='1'">1</button>
+	<button class="single"onclick="document.calc.txt.value+='2'">2</button>
+	<button class="single"onclick="document.calc.txt.value+='3'">3</button>
+	<button class="single" style="background-color: #ff0000"onclick="document.calc.txt.value+='+'">+</button>
+	<button class="single"onclick="document.calc.txt.value+='.'">.</button>
+	<button class="single"onclick="document.calc.txt.value+='0'">0</button>
+	<button class="single"onclick="document.calc.txt.value=eval(calc.txt.value)">=</button>
+    <button class="single" style="background-color: #00b300"onclick="document.calc.txt.value =''">C</button>
+
+</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

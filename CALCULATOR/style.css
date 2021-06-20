@@ -1,0 +1,60 @@
+*{
+	font-family: Bahnschrift;
+	font-size: 35px;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+}
+
+.container{
+	height: 450px;
+	width: 320px;
+	background-color:#262626;
+	border-radius: 20px;
+}
+
+.display p{
+font-family: Yu Gothic UI Semibold;
+color: white;
+}
+
+.board{
+	background-color: white;
+	margin-top: -20px;
+}
+.input{
+	width:100%;
+	font-size: 25px;
+font-family: Bahnschrift;
+color: grey;	
+}
+
+.buttons{
+	margin-top: 5px;
+	cursor: default;
+}
+
+.single{
+	border: none;
+	height: 55px;
+	width: 55px;
+	text-decoration: none;
+border-radius: 50%;
+margin:8.5px;
+}
+
+.value{
+	width:316px; height: 85px; 
+	text-align: right;
+	border:none;
+	background-color: #004d1a;
+	color: white;
+}
+
+.value:focus{
+	outline: none;
+}
