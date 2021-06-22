@@ -1,0 +1,94 @@
+*{
+    font-family: YU Gothic UI Semibold;
+}
+
+body{
+		min-height: 95vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color:#ffd9b3;
+	}
+	.container{
+		width: 800px;
+		display: flex;
+        overflow: hidden;
+
+	}
+	.left{
+		width: 50%;
+		height: 450px;
+		background-color: #4d2600;
+		border-radius: 20px 0px 0px 20px;
+        overflow: hidden; 
+	}
+	.right{
+		width: 50%;
+		height: 450px;
+		background-color: white;
+		border-radius: 0px 20px 20px 0px;
+        overflow: hidden;
+	}
+	.logo{
+		height: 120px;
+		width: 120px;
+		background-color: white;
+		margin: 40px auto;
+		border-radius: 50%;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+    .circ{
+    	height: 50px;
+    	width: 50px;
+    	background-color: #4d2600;
+    	border-radius: 50%;
+    }
+    .semicirc{
+    	height: 60px;
+    	width: 80px;
+    	background-color: #4d2600;
+    	border-radius: 100px 100px 0px 0px;
+    	margin-top: 100px;
+    	position:absolute;
+    }
+    .google{
+    	height: 40px;
+    	width: 200px;
+    	background-color: white;
+    	border-radius: 40px;
+    	margin-left: 100px;
+    	margin-top: 80px;
+    	font-size: 20px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	cursor: pointer;
+    }
+     .email{
+    	height: 40px;
+    	width: 200px;
+    	background-color: white;
+    	border-radius: 40px;
+    	margin-left: 100px;
+    	margin-top: 20px;
+    	font-size: 20px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	cursor: pointer;
+    }
+
+    .username, .password{
+        border:none;
+        border-bottom: 2px solid #4d2600;
+        font-size: 20px;
+    }
+    .username:focus, .password:focus{
+     outline: none;
+    }
+
+  
+
