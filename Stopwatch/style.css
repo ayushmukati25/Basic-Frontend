@@ -1,0 +1,96 @@
+*{
+	font-family: YU Gothic UI Semibold;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 95vh;
+}
+
+.container{
+	height: 350px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.outer{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 16px solid  #5c5c3d;
+	color: #5c5c3d;
+}
+
+.inner{
+	height: 260px;
+	width: 260px;
+	background-color: #e0e0d1;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head{
+	position: absolute;
+	height: 55px;
+	width: 110px;
+	background-color: #5c5c3d;
+	border-radius: 10px;
+	margin-top: -410px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+}
+
+.headtwo{
+	position: absolute;
+	height: 40px;
+	width: 35px;
+	background-color: #5c5c3d;
+	border-radius: 10px;
+	margin-top: -340px;
+}
+
+.side{
+	height: 40px;
+	width: 50px;
+	border-radius: 10px;
+	background-color: #5c5c3d;
+	position: absolute;
+	margin-top: -300px;
+	margin-left: -260px;
+	transform: rotate(-43deg);
+	outline: none;
+	border: none;
+}
+
+.sidetwo{
+	height: 40px;
+	width: 50px;
+	border-radius: 10px;
+	background-color: #5c5c3d;
+	position: absolute;
+	margin-top: -300px;
+	margin-left: 260px;
+	transform: rotate(43deg);
+	outline: none;
+	border: none;
+}
+
+#output{
+	font-size: 40px;
+}
+
+#start, #stop{
+	font-size: 16px;
+	color:white;
+	cursor: pointer;
+}
