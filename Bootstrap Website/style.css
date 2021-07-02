@@ -1,0 +1,98 @@
+*{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;	
+
+}
+
+.navbar{
+	background-color:#4d4dff !important;
+}
+
+.nav-link{
+	color: white !important;
+	font-weight: 600;
+	transition: 0.4s ease;
+}
+
+.nav-link:hover{
+	border-radius: 25px !important;
+	background-color: white !important;
+	color: #4d4dff !important;
+	font-weight: 600;
+}
+
+.navbar-brand{
+	color: white !important;
+	font-weight: 600;
+}
+
+#cover{
+	background-color:#4d4dff ;
+	height: 560px;
+}
+@media(max-width: 768px){
+	#pic{display: none;}
+	.mentors{margin-top: 200px;}
+}
+.col{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.col .heading{
+	font-weight: 650;
+	font-size: 30px;
+}
+
+.thirdlast, .thirdlast h3{
+	margin-top: 70px;
+	font-weight: 650;
+}
+
+.thirdlast p{
+	font-size: 25px;
+	font-weight: 550;
+}
+
+.secondlast{
+margin-top: 50px;
+}
+
+.secondlast h3{
+	margin-top: 20px;
+	font-weight: 650;
+}
+
+.secondlast p{
+	font-size: 25px;
+	font-weight: 550;
+}
+
+.mentors{
+	margin-top: 100px;
+}
+
+.card{
+	border: none;
+}
+
+.last{
+	height: 400px;
+	margin-top: 70px;
+}
+
+.newsletter{
+	margin-top: 100px;
+	height: 300px;
+}
+
+.contact{
+	margin-top: 70px;
+}
+
+.newsletter{
+	height: 220px;
+	background-color:#4d4dff ;
+}
